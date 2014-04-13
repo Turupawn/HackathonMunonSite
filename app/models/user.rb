@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
-  has_and_belongs_to_many :proyectos
+  has_many :proyectos
   has_many :proyecto_users
+  has_many :votacions
 
 
   def self.from_omniauth(auth)

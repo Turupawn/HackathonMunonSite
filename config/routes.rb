@@ -1,4 +1,6 @@
 Myapp::Application.routes.draw do
+  resources :proyecto_users
+
   resources :proyectos
 
   resources :eventos

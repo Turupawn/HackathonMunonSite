@@ -11,17 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140413113222) do
+ActiveRecord::Schema.define(version: 20140413092240) do
 
   create_table "eventos", force: true do |t|
     t.string   "nombre"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "proyecto_users", force: true do |t|
-    t.integer  "proyecto_id"
-    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -31,9 +24,12 @@ ActiveRecord::Schema.define(version: 20140413113222) do
     t.text     "descripcion"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "evento_id"
-    t.integer  "user_id"
   end
+
+  create_table "votacions", force: true do |t|
+    t.integer  "proyecto_id"
+    t.integer  "usuario_id"
+    t.integer  "valor"
 
   create_table "users", force: true do |t|
     t.string   "provider"
@@ -41,14 +37,6 @@ ActiveRecord::Schema.define(version: 20140413113222) do
     t.string   "name"
     t.string   "oauth_token"
     t.datetime "oauth_expires_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "votacions", force: true do |t|
-    t.integer  "proyecto_id"
-    t.integer  "user_id"
-    t.integer  "valor"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -11,9 +11,12 @@
     </div>
   <% end %>
 
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+  <%= f.hidden_field :evento_id, :value => params[:evento_id] %>
+
   <div class="field">
     <%= f.label :nombre %><br>
-    <%= f.text_field :nombre %>
+    <%= f.text_field :nombre%>
   </div>
   <div class="field">
     <%= f.label :descripcion %><br>

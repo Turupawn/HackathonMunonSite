@@ -1,6 +1,16 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Evento:</strong>
+  <%= link_to  @proyecto.evento.nombre, @proyecto.evento %>
+</p>
+
+<p>
+  <strong>Administrador:</strong>
+  <%= @proyecto.user.nombre %>
+</p>
+
+<p>
   <strong>Nombre:</strong>
   <%= @proyecto.nombre %>
 </p>
@@ -10,7 +20,5 @@
   <%= @proyecto.descripcion %>
 </p>
 
-
-<%= link_to 'Ir a evento TODO', "#" %> |
 <%= link_to 'Editar informacion', edit_proyecto_path(@proyecto) %> |
 <%= link_to 'Agregar participante TODO', "#" %>

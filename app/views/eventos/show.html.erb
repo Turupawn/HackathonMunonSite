@@ -1,9 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>nombre:</strong>
-  <%= @evento.nombre %>
-</p>
+<h1>Evento: <%= @evento.nombre %> </h1>
 
 <h2>Proyectos</h2>
 
@@ -12,14 +9,11 @@
     <tr>
       <th>Nombre</th>
       <th>Descripcion</th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
 
   <tbody>
-    <% Proyecto.all.each do |proyecto| %>
+    <% @evento.proyectos.each do |proyecto| %>
       <tr>
         <td><%= link_to proyecto.nombre, proyecto %></td>
         <td><%= proyecto.descripcion %></td>
@@ -32,4 +26,4 @@
 
 <%= link_to 'Inscribirse TODO', "#" %> |
 <%= link_to 'Votar TODO', "#" %> |
-<%= link_to 'Nuevo proyecto', new_proyecto_path %>
+<%= link_to 'Nuevo proyecto', {:controller => "proyectos", :action => "new", :evento_id => @evento.id }%>

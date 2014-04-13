@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  proyecto_id: 1
+  usuario_id: 1
+  valor: 1
+
+two:
+  proyecto_id: 1
+  usuario_id: 1
+  valor: 1

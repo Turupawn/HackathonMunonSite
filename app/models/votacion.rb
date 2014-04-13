@@ -1,4 +1,4 @@
 class Votacion < ActiveRecord::Base
-  has_one :user
-  has_one :proyecto
+  belongs_to :user
+  belongs_to :proyecto
 end

@@ -5,5 +5,31 @@
   <%= @evento.nombre %>
 </p>
 
-<%= link_to 'Edit', edit_evento_path(@evento) %> |
-<%= link_to 'Back', eventos_path %>
+<h2>Proyectos</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% Proyecto.all.each do |proyecto| %>
+      <tr>
+        <td><%= link_to proyecto.nombre, proyecto %></td>
+        <td><%= proyecto.descripcion %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h2>Acciones</h2>
+
+<%= link_to 'Inscribirse TODO', "#" %> |
+<%= link_to 'Votar TODO', "#" %> |
+<%= link_to 'Nuevo proyecto', new_proyecto_path %>

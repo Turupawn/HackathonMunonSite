@@ -4246,3 +4246,410 @@ I, [2013-12-20T08:20:02.096142 #800]  INFO -- : Processing by HomeController#ind
 I, [2013-12-20T08:20:02.098307 #800]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
 I, [2013-12-20T08:20:02.099445 #800]  INFO -- : Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
 I, [2013-12-20T08:20:02.180102 #798]  INFO -- : Started GET "/assets/rails.png" for 67.80.151.213 at 2013-12-20 08:20:02 +0000
+I, [2014-04-13T05:15:15.553320 #822]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 05:15:15 +0000
+I, [2014-04-13T05:15:15.687120 #822]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T05:15:15.707335 #822]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2014-04-13T05:15:15.708918 #822]  INFO -- : Completed 200 OK in 22ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T05:15:19.716671 #824]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 05:15:19 +0000
+I, [2014-04-13T08:45:16.799471 #824]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:45:16 +0000
+I, [2014-04-13T08:45:16.802183 #824]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:45:16.823408 #824]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2014-04-13T08:45:16.825005 #824]  INFO -- : Completed 200 OK in 23ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:45:18.964803 #822]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:45:18 +0000
+I, [2014-04-13T08:45:18.967339 #822]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:45:18.968826 #822]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:45:18.969616 #822]  INFO -- : Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:45:19.592614 #824]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:45:19 +0000
+I, [2014-04-13T08:46:55.152564 #824]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:46:55 +0000
+I, [2014-04-13T08:46:55.154482 #824]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:46:55.155949 #824]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:46:55.156570 #824]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:46:55.675091 #822]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:46:55 +0000
+I, [2014-04-13T08:46:57.573992 #824]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:46:57 +0000
+I, [2014-04-13T08:46:57.575261 #824]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:46:57.576299 #824]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:46:57.576991 #824]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:46:57.925962 #822]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:46:57 +0000
+I, [2014-04-13T08:47:53.146087 #822]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:47:53 +0000
+I, [2014-04-13T08:47:53.147236 #822]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:47:53.148335 #822]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:47:53.148972 #822]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:47:53.832162 #824]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:47:53 +0000
+I, [2014-04-13T08:47:54.590517 #824]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:47:54 +0000
+I, [2014-04-13T08:47:54.591601 #824]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:47:54.592544 #824]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:47:54.593179 #824]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:47:55.052400 #822]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:47:55 +0000
+I, [2014-04-13T08:47:55.850525 #822]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:47:55 +0000
+I, [2014-04-13T08:47:55.851934 #822]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:47:55.852926 #822]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:47:55.853543 #822]  INFO -- : Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:47:56.351576 #824]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:47:56 +0000
+I, [2014-04-13T08:52:19.492985 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.497348 #6217]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.507071 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.511199 #6217]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.551469 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (4.8ms)
+I, [2014-04-13T08:52:19.553146 #6220]  INFO -- : Completed 200 OK in 46ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.558749 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.560570 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.561687 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.562416 #6220]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.564476 #6217]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2014-04-13T08:52:19.566070 #6217]  INFO -- : Completed 200 OK in 55ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.567430 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.568186 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.568846 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.569397 #6220]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.570110 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.571514 #6217]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.573246 #6217]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.574293 #6217]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.574876 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.575742 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.576351 #6220]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.577185 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.577997 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.578627 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.579137 #6217]  INFO -- : Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.580166 #6217]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.581082 #6217]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.581855 #6217]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.582429 #6217]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.583211 #6220]  INFO -- : Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:19.583924 #6220]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:19 +0000
+I, [2014-04-13T08:52:19.584657 #6220]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:19.585310 #6220]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:52:19.585817 #6220]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:22.603782 #6224]  INFO -- : Migrating to CreateUsers (20140413081214)
+I, [2014-04-13T08:52:47.870060 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:52:47 +0000
+I, [2014-04-13T08:52:47.877559 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:52:47.898999 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2014-04-13T08:52:47.932344 #6255]  INFO -- : Completed 200 OK in 54ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:52:48.178247 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:52:48 +0000
+I, [2014-04-13T08:52:52.082655 #6255]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 08:52:52 +0000
+I, [2014-04-13T08:52:52.083441 #6255]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T08:53:01.375913 #6253]  INFO -- : Started GET "/auth/facebook/callback?code=AQBTOGflRvC7q6f6bvXT6cniEJCv6C8fBBk7D4yC6AsEZaeFfCTsEUvgHQ551jO1hGzCVXhNQcESzA83tRJNUldclcUj7wK0LqnB6M32b4KXlQpujxIrJW1vyx-PUepnTXMVlGUB8bacsY50CGjSB0h2oGvn58PfY0FqEBDazvUDH5k3215GLPORAKZiTT0u39pkx9lzgANoz2UCr0lvTRndraKUr4P0IKjtnIvg85utkWL4SHwNaNYct90s0nNy_SNVHlKHBi89IMwiNHYS3-L4Qt_4pG1MXMuZ-84P_jnP3WuWewmNB988RjS-6-ZP1DU" for 190.4.5.66 at 2014-04-13 08:53:01 +0000
+I, [2014-04-13T08:53:01.376948 #6253]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-04-13T08:53:01.880271 #6253]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-04-13T08:53:01.880429 #6253]  INFO -- :   Parameters: {"code"=>"AQBTOGflRvC7q6f6bvXT6cniEJCv6C8fBBk7D4yC6AsEZaeFfCTsEUvgHQ551jO1hGzCVXhNQcESzA83tRJNUldclcUj7wK0LqnB6M32b4KXlQpujxIrJW1vyx-PUepnTXMVlGUB8bacsY50CGjSB0h2oGvn58PfY0FqEBDazvUDH5k3215GLPORAKZiTT0u39pkx9lzgANoz2UCr0lvTRndraKUr4P0IKjtnIvg85utkWL4SHwNaNYct90s0nNy_SNVHlKHBi89IMwiNHYS3-L4Qt_4pG1MXMuZ-84P_jnP3WuWewmNB988RjS-6-ZP1DU", "provider"=>"facebook"}
+I, [2014-04-13T08:53:01.907667 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T08:53:01.907996 #6253]  INFO -- : Completed 302 Found in 27ms (ActiveRecord: 12.2ms)
+I, [2014-04-13T08:53:02.064513 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:53:02 +0000
+I, [2014-04-13T08:53:02.067165 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:53:02.068556 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:53:02.085258 #6255]  INFO -- : Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 3.2ms)
+I, [2014-04-13T08:53:02.666211 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:53:02 +0000
+I, [2014-04-13T08:53:55.966269 #6253]  INFO -- : Started GET "/" for 173.252.101.118 at 2014-04-13 08:53:55 +0000
+I, [2014-04-13T08:53:55.968515 #6253]  INFO -- : Processing by HomeController#index as */*
+I, [2014-04-13T08:53:55.973002 #6253]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2014-04-13T08:53:55.974807 #6253]  INFO -- : Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:53:56.461567 #6255]  INFO -- : Started GET "/assets/rails.png" for 173.252.101.119 at 2014-04-13 08:53:56 +0000
+I, [2014-04-13T08:53:56.646058 #6253]  INFO -- : Started GET "/assets/rails.png" for 173.252.101.112 at 2014-04-13 08:53:56 +0000
+I, [2014-04-13T08:53:56.662262 #6255]  INFO -- : Started GET "/assets/rails.png" for 173.252.101.115 at 2014-04-13 08:53:56 +0000
+I, [2014-04-13T08:53:57.272838 #6253]  INFO -- : Started GET "/assets/rails.png" for 69.171.245.113 at 2014-04-13 08:53:57 +0000
+I, [2014-04-13T08:53:57.441780 #6255]  INFO -- : Started GET "/assets/rails.png" for 69.171.245.113 at 2014-04-13 08:53:57 +0000
+I, [2014-04-13T08:53:57.639815 #6253]  INFO -- : Started GET "/assets/rails.png" for 173.252.113.115 at 2014-04-13 08:53:57 +0000
+I, [2014-04-13T08:54:39.173262 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:54:39 +0000
+I, [2014-04-13T08:54:39.175473 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:54:39.176778 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T08:54:39.177940 #6255]  INFO -- : Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:54:39.584953 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 08:54:39 +0000
+I, [2014-04-13T08:55:14.341707 #6253]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 08:55:14 +0000
+I, [2014-04-13T08:55:14.342266 #6253]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T08:55:33.385780 #6255]  INFO -- : Started GET "/auth/facebook/callback?error_code=1349126&error_message=App%20Not%20Setup%3A%20The%20developers%20of%20this%20app%20have%20not%20set%20up%20this%20app%20properly%20for%20Facebook%20Login." for 190.4.5.66 at 2014-04-13 08:55:33 +0000
+I, [2014-04-13T08:55:33.386379 #6255]  INFO -- : (facebook) Callback phase initiated.
+F, [2014-04-13T08:55:33.388898 #6255] FATAL -- : 
+OmniAuth::Strategies::Facebook::NoAuthorizationCodeError (must pass either a `code` parameter or a signed request (via `signed_request` parameter or a `fbsr_XXX` cookie)):
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:177:in `with_authorization_code!'
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.0.3) lib/omniauth/strategies/oauth2.rb:62:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2164587831531609450__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-04-13T08:56:38.830157 #6253]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 08:56:38 +0000
+I, [2014-04-13T08:56:38.832332 #6253]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T08:56:38.834520 #6253]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.6ms)
+I, [2014-04-13T08:56:38.835496 #6253]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T08:56:40.718809 #6255]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 08:56:40 +0000
+I, [2014-04-13T08:56:40.719321 #6255]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T08:56:44.552716 #6253]  INFO -- : Started GET "/auth/facebook/callback?error_code=1349126&error_message=App%20Not%20Setup%3A%20The%20developers%20of%20this%20app%20have%20not%20set%20up%20this%20app%20properly%20for%20Facebook%20Login." for 190.4.5.66 at 2014-04-13 08:56:44 +0000
+I, [2014-04-13T08:56:44.553416 #6253]  INFO -- : (facebook) Callback phase initiated.
+F, [2014-04-13T08:56:44.556074 #6253] FATAL -- : 
+OmniAuth::Strategies::Facebook::NoAuthorizationCodeError (must pass either a `code` parameter or a signed request (via `signed_request` parameter or a `fbsr_XXX` cookie)):
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:177:in `with_authorization_code!'
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.0.3) lib/omniauth/strategies/oauth2.rb:62:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2164587831531609450__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-04-13T09:01:48.122830 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:01:48 +0000
+I, [2014-04-13T09:01:48.124693 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:01:48.126107 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:01:48.127231 #6255]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:01:49.582891 #6253]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 09:01:49 +0000
+I, [2014-04-13T09:01:49.583639 #6253]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T09:01:55.869028 #6255]  INFO -- : Started GET "/auth/facebook/callback?code=AQBFaYvUueWWK9Kzj6KHXrJ7HePOUR4zNEJ7mPSXMMomttgL853cbRzHnBn80ku54D4jydlCo7Qfxe5yKejqtxPJ6JndjmjvpE52AvazqFEqY8du5LQpfYIZWFKMIoeY0mpYaHGq4cYWz4F4ZWMu-2HrZl2Wmi7s1N8sUQxU7gJgBjOifajvgpTS6oFvhLAFxZ1sKR8odkXbTlfWbsvXSpY1kc749bfcTXmS7QAmieGTBe2g3V2v2WwFelCMBdDq6HPU50_uSSHpTtDSZ2hH361J-Wg9xi2e2oGa8dTBe5-3T0eRfHS7e5Ew-qVAvVk8PdQ" for 190.4.5.66 at 2014-04-13 09:01:55 +0000
+I, [2014-04-13T09:01:55.869556 #6255]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-04-13T09:01:56.288435 #6255]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-04-13T09:01:56.288586 #6255]  INFO -- :   Parameters: {"code"=>"AQBFaYvUueWWK9Kzj6KHXrJ7HePOUR4zNEJ7mPSXMMomttgL853cbRzHnBn80ku54D4jydlCo7Qfxe5yKejqtxPJ6JndjmjvpE52AvazqFEqY8du5LQpfYIZWFKMIoeY0mpYaHGq4cYWz4F4ZWMu-2HrZl2Wmi7s1N8sUQxU7gJgBjOifajvgpTS6oFvhLAFxZ1sKR8odkXbTlfWbsvXSpY1kc749bfcTXmS7QAmieGTBe2g3V2v2WwFelCMBdDq6HPU50_uSSHpTtDSZ2hH361J-Wg9xi2e2oGa8dTBe5-3T0eRfHS7e5Ew-qVAvVk8PdQ", "provider"=>"facebook"}
+I, [2014-04-13T09:01:56.305962 #6255]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:01:56.306400 #6255]  INFO -- : Completed 302 Found in 18ms (ActiveRecord: 11.2ms)
+I, [2014-04-13T09:01:56.839711 #6253]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:01:56 +0000
+I, [2014-04-13T09:01:56.841681 #6253]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:01:56.843002 #6253]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:01:56.845861 #6253]  INFO -- : Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+I, [2014-04-13T09:02:12.227949 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:02:12 +0000
+I, [2014-04-13T09:02:12.229811 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:02:12.231585 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-04-13T09:02:12.234451 #6255]  INFO -- : Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T09:02:12.816262 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:02:12 +0000
+I, [2014-04-13T09:02:13.719778 #6253]  INFO -- : Started GET "/signout" for 190.4.5.66 at 2014-04-13 09:02:13 +0000
+I, [2014-04-13T09:02:13.722128 #6253]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2014-04-13T09:02:13.723056 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:02:13.723246 #6253]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-04-13T09:02:15.023874 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:02:15 +0000
+I, [2014-04-13T09:02:15.025678 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:02:15.027119 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:02:15.028063 #6255]  INFO -- : Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:02:15.364069 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:02:15 +0000
+I, [2014-04-13T09:02:20.656786 #6253]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:02:20 +0000
+I, [2014-04-13T09:02:20.658218 #6253]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:02:20.659269 #6253]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:02:20.660123 #6253]  INFO -- : Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:02:22.645833 #6255]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:02:22 +0000
+I, [2014-04-13T09:02:25.433038 #6255]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 09:02:25 +0000
+I, [2014-04-13T09:02:25.433560 #6255]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T09:02:29.747858 #6253]  INFO -- : Started GET "/auth/facebook/callback?code=AQANHnw18flmTgC5wazQIChhUOBGyerM_LY2gslhUGdzD_fARzyAiJ-StzqZWXmS0niaWn782u2J0l_-t5EEwSQIJWRj3BWd4LboLkdK8MHO0AVa50byB7aj7le1EqJL7WJAqkibtiO52FyIBfG18cwCYFEkaxSDaFa4rNw3KX6tNsHSHRLAxYZ9Szy-PNrxuDd_sjU9aGp85fU_-ZGxstvm2GGYzBF5OLK-5hIVhauFwGTQwZLk2bb9QSkQEpuM_LPvlgB9tqFWt41ZN775wk3UAq0ciLOif7xo3dhaQj2aBv4e2aoEgKRFhyun5Hui4Xg" for 190.4.5.66 at 2014-04-13 09:02:29 +0000
+I, [2014-04-13T09:02:29.748446 #6253]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-04-13T09:02:30.161998 #6253]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-04-13T09:02:30.162154 #6253]  INFO -- :   Parameters: {"code"=>"AQANHnw18flmTgC5wazQIChhUOBGyerM_LY2gslhUGdzD_fARzyAiJ-StzqZWXmS0niaWn782u2J0l_-t5EEwSQIJWRj3BWd4LboLkdK8MHO0AVa50byB7aj7le1EqJL7WJAqkibtiO52FyIBfG18cwCYFEkaxSDaFa4rNw3KX6tNsHSHRLAxYZ9Szy-PNrxuDd_sjU9aGp85fU_-ZGxstvm2GGYzBF5OLK-5hIVhauFwGTQwZLk2bb9QSkQEpuM_LPvlgB9tqFWt41ZN775wk3UAq0ciLOif7xo3dhaQj2aBv4e2aoEgKRFhyun5Hui4Xg", "provider"=>"facebook"}
+I, [2014-04-13T09:02:30.173528 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:02:30.173773 #6253]  INFO -- : Completed 302 Found in 12ms (ActiveRecord: 8.2ms)
+I, [2014-04-13T09:02:30.406044 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:02:30 +0000
+I, [2014-04-13T09:02:30.407437 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:02:30.408413 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:02:30.410133 #6255]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T09:06:10.744564 #6253]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:06:10 +0000
+I, [2014-04-13T09:06:10.746106 #6253]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:06:10.747306 #6253]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:06:10.748126 #6253]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:06:11.678573 #6255]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:06:11 +0000
+I, [2014-04-13T09:06:12.505444 #6255]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 09:06:12 +0000
+I, [2014-04-13T09:06:12.505952 #6255]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T09:06:13.697584 #6253]  INFO -- : Started GET "/auth/facebook/callback?code=AQAej8fj4B84yXnCleBfdoe1sjKzz6x3N8aTt6QIxpwyhQRc78NRi1n6mRz9jUa9a4p-j7Km5AoHY-FHN9jFwriJzGRgZnuXcW5WbSX31xSES7sfqWoQZESGO9eNw7MvXNUEW0EkmurZrO7OHDX43l2ocdqKvt41PwBSCnvKYj6shMH5ksm3d7P_cPyc0S16gS1JwvxCNmskALkS_h4IcsBFgv780wo-MnZ1G2CgmVij9hO2g2c_ztBd-F8_ZEaXw392fzomNQajQwmlZ4CA0U0J2s6tG7ty4ZEmMbBiWVGYAwtlzB60OZvv_6HX8TpfHCg" for 190.4.5.66 at 2014-04-13 09:06:13 +0000
+I, [2014-04-13T09:06:13.698190 #6253]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-04-13T09:06:14.102315 #6253]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-04-13T09:06:14.102451 #6253]  INFO -- :   Parameters: {"code"=>"AQAej8fj4B84yXnCleBfdoe1sjKzz6x3N8aTt6QIxpwyhQRc78NRi1n6mRz9jUa9a4p-j7Km5AoHY-FHN9jFwriJzGRgZnuXcW5WbSX31xSES7sfqWoQZESGO9eNw7MvXNUEW0EkmurZrO7OHDX43l2ocdqKvt41PwBSCnvKYj6shMH5ksm3d7P_cPyc0S16gS1JwvxCNmskALkS_h4IcsBFgv780wo-MnZ1G2CgmVij9hO2g2c_ztBd-F8_ZEaXw392fzomNQajQwmlZ4CA0U0J2s6tG7ty4ZEmMbBiWVGYAwtlzB60OZvv_6HX8TpfHCg", "provider"=>"facebook"}
+I, [2014-04-13T09:06:14.113380 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:06:14.113806 #6253]  INFO -- : Completed 302 Found in 11ms (ActiveRecord: 6.3ms)
+I, [2014-04-13T09:06:14.294817 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:06:14 +0000
+I, [2014-04-13T09:06:14.296704 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:06:14.298138 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:06:14.300377 #6255]  INFO -- : Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T09:06:14.972641 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:06:14 +0000
+I, [2014-04-13T09:06:15.944927 #6253]  INFO -- : Started GET "/signout" for 190.4.5.66 at 2014-04-13 09:06:15 +0000
+I, [2014-04-13T09:06:15.946760 #6253]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2014-04-13T09:06:15.947666 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:06:15.947851 #6253]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-04-13T09:06:16.127774 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:06:16 +0000
+I, [2014-04-13T09:06:16.129146 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:06:16.130192 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:06:16.130944 #6255]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:06:16.468245 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:06:16 +0000
+I, [2014-04-13T09:39:04.679874 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:39:04 +0000
+I, [2014-04-13T09:39:04.681232 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:39:04.682028 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:39:04.682896 #6255]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-04-13T09:39:04.925371 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:39:04 +0000
+I, [2014-04-13T09:57:04.161167 #6255]  INFO -- : Started GET "/auth/facebook" for 190.4.5.66 at 2014-04-13 09:57:04 +0000
+I, [2014-04-13T09:57:04.161700 #6255]  INFO -- : (facebook) Request phase initiated.
+I, [2014-04-13T09:57:04.578862 #6253]  INFO -- : Started GET "/auth/facebook/callback?code=AQCfh6sWv40qKau1UaNhBPZdjTKe_aZLXNITSXGBhPVa8LQH7E_13V9JjGdlBiH3T6BPrUEO0LC7ZmCo0ki8qrEpCKxPaw7R1fE1Nz9wjV-OG-kvs2NJ-nufzY5UtVh-pWcoM47fEnfHOgzVmBr-PMl4elbVujU937Q5Z9zvzr0G9JB9WKzwZ6AG0Atq-r80ah7MlWSR194IzogbwJ5o8FFbE_ttg2411Q992ixLgIe1AzvJro64o0Am8k5vNaKcZFUtxpYoC1TBbmXsSrP2tWAObRdhA5aVAaQbkNmT1123z_VKHq0p_0ZGYcZflfJcZYQ" for 190.4.5.66 at 2014-04-13 09:57:04 +0000
+I, [2014-04-13T09:57:04.579453 #6253]  INFO -- : (facebook) Callback phase initiated.
+I, [2014-04-13T09:57:04.968547 #6253]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-04-13T09:57:04.968729 #6253]  INFO -- :   Parameters: {"code"=>"AQCfh6sWv40qKau1UaNhBPZdjTKe_aZLXNITSXGBhPVa8LQH7E_13V9JjGdlBiH3T6BPrUEO0LC7ZmCo0ki8qrEpCKxPaw7R1fE1Nz9wjV-OG-kvs2NJ-nufzY5UtVh-pWcoM47fEnfHOgzVmBr-PMl4elbVujU937Q5Z9zvzr0G9JB9WKzwZ6AG0Atq-r80ah7MlWSR194IzogbwJ5o8FFbE_ttg2411Q992ixLgIe1AzvJro64o0Am8k5vNaKcZFUtxpYoC1TBbmXsSrP2tWAObRdhA5aVAaQbkNmT1123z_VKHq0p_0ZGYcZflfJcZYQ", "provider"=>"facebook"}
+I, [2014-04-13T09:57:04.979524 #6253]  INFO -- : Redirected to http://188.226.195.196/
+I, [2014-04-13T09:57:04.979767 #6253]  INFO -- : Completed 302 Found in 11ms (ActiveRecord: 7.1ms)
+I, [2014-04-13T09:57:05.174083 #6255]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 09:57:05 +0000
+I, [2014-04-13T09:57:05.175549 #6255]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T09:57:05.176725 #6255]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T09:57:05.178487 #6255]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T09:57:05.540062 #6253]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 09:57:05 +0000
+I, [2014-04-13T10:26:14.372835 #6663]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:26:14 +0000
+I, [2014-04-13T10:26:14.381757 #6663]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:26:14.402731 #6663]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2014-04-13T10:26:14.418798 #6663]  INFO -- : Completed 200 OK in 37ms (Views: 15.7ms | ActiveRecord: 2.8ms)
+I, [2014-04-13T10:26:14.914446 #6665]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:26:14 +0000
+I, [2014-04-13T10:26:20.256534 #6663]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:26:20 +0000
+I, [2014-04-13T10:26:20.259559 #6663]  INFO -- : Processing by EventosController#index as HTML
+E, [2014-04-13T10:26:20.263926 #6663] ERROR -- : SQLite3::SQLException: no such table: eventos: SELECT "eventos".* FROM "eventos"
+I, [2014-04-13T10:26:20.264545 #6663]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (2.1ms)
+I, [2014-04-13T10:26:20.264722 #6663]  INFO -- : Completed 500 Internal Server Error in 5ms
+F, [2014-04-13T10:26:20.266832 #6663] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: eventos: SELECT "eventos".* FROM "eventos"):
+    11:   </thead>
+    12: 
+    13:   <tbody>
+    14:     <% @eventos.each do |evento| %>
+    15:       <tr>
+    16:         <td><%= evento.nombre %></td>
+    17:         <td><%= link_to 'Show', evento %></td>
+  app/views/eventos/index.html.erb:14:in `_app_views_eventos_index_html_erb___2834736554679292996_33871260'
+
+
+I, [2014-04-13T10:26:37.656545 #6711]  INFO -- : Migrating to CreateEventos (20140413082339)
+I, [2014-04-13T10:26:37.713198 #6711]  INFO -- : Migrating to CreateProyectos (20140413090118)
+I, [2014-04-13T10:26:37.720230 #6711]  INFO -- : Migrating to CreateVotacions (20140413092240)
+I, [2014-04-13T10:26:51.490894 #6747]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:26:51 +0000
+I, [2014-04-13T10:26:51.499859 #6747]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:26:51.522745 #6747]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (2.4ms)
+I, [2014-04-13T10:26:51.537655 #6747]  INFO -- : Completed 200 OK in 38ms (Views: 15.9ms | ActiveRecord: 2.9ms)
+I, [2014-04-13T10:27:06.771582 #6749]  INFO -- : Started GET "/eventos/new" for 190.4.5.66 at 2014-04-13 10:27:06 +0000
+I, [2014-04-13T10:27:06.780978 #6749]  INFO -- : Processing by EventosController#new as HTML
+I, [2014-04-13T10:27:06.822644 #6749]  INFO -- :   Rendered eventos/_form.html.erb (17.0ms)
+I, [2014-04-13T10:27:06.823123 #6749]  INFO -- :   Rendered eventos/new.html.erb within layouts/application (18.7ms)
+I, [2014-04-13T10:27:06.838724 #6749]  INFO -- : Completed 200 OK in 57ms (Views: 33.2ms | ActiveRecord: 3.4ms)
+I, [2014-04-13T10:27:12.846609 #6747]  INFO -- : Started POST "/eventos" for 190.4.5.66 at 2014-04-13 10:27:12 +0000
+I, [2014-04-13T10:27:12.849159 #6747]  INFO -- : Processing by EventosController#create as HTML
+I, [2014-04-13T10:27:12.849261 #6747]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1qOF7Uj0w4jhch+IG8NOTaoGyeJQQlG0YsI0bw/3RGQ=", "evento"=>{"nombre"=>"prueba"}, "commit"=>"Create Evento"}
+I, [2014-04-13T10:27:12.866205 #6747]  INFO -- : Redirected to http://188.226.195.196/eventos/1
+I, [2014-04-13T10:27:12.866507 #6747]  INFO -- : Completed 302 Found in 17ms (ActiveRecord: 7.8ms)
+I, [2014-04-13T10:27:13.113814 #6749]  INFO -- : Started GET "/eventos/1" for 190.4.5.66 at 2014-04-13 10:27:13 +0000
+I, [2014-04-13T10:27:13.116524 #6749]  INFO -- : Processing by EventosController#show as HTML
+I, [2014-04-13T10:27:13.116593 #6749]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-04-13T10:27:13.121087 #6749]  INFO -- :   Rendered eventos/show.html.erb within layouts/application (1.0ms)
+I, [2014-04-13T10:27:13.122814 #6749]  INFO -- : Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+I, [2014-04-13T10:27:19.960851 #6747]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:27:19 +0000
+I, [2014-04-13T10:27:19.962691 #6747]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:27:19.966270 #6747]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (2.2ms)
+I, [2014-04-13T10:27:19.968099 #6747]  INFO -- : Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+I, [2014-04-13T10:27:22.656797 #6749]  INFO -- : Started DELETE "/eventos/1" for 190.4.5.66 at 2014-04-13 10:27:22 +0000
+I, [2014-04-13T10:27:22.658931 #6749]  INFO -- : Processing by EventosController#destroy as HTML
+I, [2014-04-13T10:27:22.659005 #6749]  INFO -- :   Parameters: {"authenticity_token"=>"1qOF7Uj0w4jhch+IG8NOTaoGyeJQQlG0YsI0bw/3RGQ=", "id"=>"1"}
+I, [2014-04-13T10:27:22.670573 #6749]  INFO -- : Redirected to http://188.226.195.196/eventos
+I, [2014-04-13T10:27:22.670905 #6749]  INFO -- : Completed 302 Found in 12ms (ActiveRecord: 8.2ms)
+I, [2014-04-13T10:27:22.838793 #6747]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:27:22 +0000
+I, [2014-04-13T10:27:22.840596 #6747]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:27:22.842837 #6747]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (0.9ms)
+I, [2014-04-13T10:27:22.844161 #6747]  INFO -- : Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+I, [2014-04-13T10:37:47.676584 #6749]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:37:47 +0000
+I, [2014-04-13T10:37:47.680200 #6749]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:37:47.684398 #6749]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2014-04-13T10:37:47.687524 #6749]  INFO -- : Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T10:37:47.924647 #6747]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:37:47 +0000
+I, [2014-04-13T10:37:51.406438 #6749]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:37:51 +0000
+I, [2014-04-13T10:37:51.408772 #6749]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:37:51.410001 #6749]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T10:37:51.411594 #6749]  INFO -- : Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T10:37:51.876958 #6747]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:37:51 +0000
+I, [2014-04-13T10:37:53.961322 #6747]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:37:53 +0000
+I, [2014-04-13T10:37:53.962926 #6747]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:37:53.964935 #6747]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (0.9ms)
+I, [2014-04-13T10:37:53.966526 #6747]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+I, [2014-04-13T10:38:05.422287 #6856]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:38:05 +0000
+I, [2014-04-13T10:38:05.430651 #6856]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:38:05.451090 #6856]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.7ms)
+I, [2014-04-13T10:38:05.467281 #6856]  INFO -- : Completed 200 OK in 36ms (Views: 15.5ms | ActiveRecord: 3.0ms)
+I, [2014-04-13T10:38:06.085437 #6854]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:38:06 +0000
+I, [2014-04-13T10:38:07.335436 #6856]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:38:07 +0000
+I, [2014-04-13T10:38:07.337824 #6856]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:38:07.339188 #6856]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-04-13T10:38:07.341214 #6856]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+I, [2014-04-13T10:38:07.672456 #6854]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:38:07 +0000
+I, [2014-04-13T10:38:14.548367 #6854]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:38:14 +0000
+I, [2014-04-13T10:38:14.551190 #6854]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:38:14.573476 #6854]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (2.3ms)
+I, [2014-04-13T10:38:14.588257 #6854]  INFO -- : Completed 200 OK in 37ms (Views: 15.5ms | ActiveRecord: 3.0ms)
+I, [2014-04-13T10:38:35.032878 #6885]  INFO -- : Started GET "/eventos" for 190.4.5.66 at 2014-04-13 10:38:35 +0000
+I, [2014-04-13T10:38:35.042192 #6885]  INFO -- : Processing by EventosController#index as HTML
+I, [2014-04-13T10:38:35.065809 #6885]  INFO -- :   Rendered eventos/index.html.erb within layouts/application (2.5ms)
+I, [2014-04-13T10:38:35.081777 #6885]  INFO -- : Completed 200 OK in 39ms (Views: 16.6ms | ActiveRecord: 3.6ms)
+I, [2014-04-13T10:38:38.383856 #6883]  INFO -- : Started GET "/" for 190.4.5.66 at 2014-04-13 10:38:38 +0000
+I, [2014-04-13T10:38:38.394525 #6883]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-04-13T10:38:38.416023 #6883]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2014-04-13T10:38:38.432466 #6883]  INFO -- : Completed 200 OK in 38ms (Views: 16.1ms | ActiveRecord: 2.9ms)
+I, [2014-04-13T10:38:39.006311 #6885]  INFO -- : Started GET "/assets/rails.png" for 190.4.5.66 at 2014-04-13 10:38:39 +0000

@@ -11,6 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140413092240) do
+
+  create_table "eventos", force: true do |t|
+    t.string   "nombre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "proyectos", force: true do |t|
+    t.string   "nombre"
+    t.text     "descripcion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "votacions", force: true do |t|
+    t.integer  "proyecto_id"
+    t.integer  "usuario_id"
+    t.integer  "valor"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

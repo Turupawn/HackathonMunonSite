@@ -20,5 +20,45 @@
   <%= @proyecto.descripcion %>
 </p>
 
-<%= link_to 'Editar informacion', edit_proyecto_path(@proyecto) %> |
-<%= link_to 'Agregar participante TODO', "#" %>
+<h3>Participantes</h3>
+
+<table>
+  <tbody>
+    <% ProyectoUser.where(:proyecto_id=>@proyecto.id).each do |proyecto_user| %>
+      <tr>
+        <td><%= User.find_by_id(proyecto_user.user_id).name %></td>
+        <% if current_user.id == @proyecto.user_id %>
+          <td><%= link_to 'Expulsar', proyecto_user, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<% if current_user.id == @proyecto.user_id %>
+  <h3>Agregar usuario</h3>
+  <% @proyecto_user = ProyectoUser.new %>
+  <%= form_for(@proyecto_user) do |f| %>
+    <% if @proyecto_user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@proyecto_user.errors.count, "error") %> prohibited this proyecto_user from being saved:</h2>
+
+        <ul>
+        <% @proyecto_user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+       </ul>
+      </div>
+    <% end %>
+    <%= hidden_field_tag "proyecto_user[proyecto_id]", @proyecto.id.to_s %>
+    <div class="field">
+      <%= f.collection_select :user_id, User.all, :id, :name %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Agregar"%>
+    </div>
+  <% end %>
+  <%= link_to 'Editar informacion', edit_proyecto_path(@proyecto) %>
+<% end %>

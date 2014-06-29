@@ -28,7 +28,7 @@ class ProyectoUsersController < ApplicationController
 
     respond_to do |format|
       if @proyecto_user.save
-        format.html { redirect_to @proyecto_user, notice: 'Proyecto user was successfully created.' }
+        format.html { redirect_to Proyecto.find_by_id(@proyecto_user.proyecto_id), notice: 'Proyecto user was successfully created.' }
         format.json { render action: 'show', status: :created, location: @proyecto_user }
       else
         format.html { render action: 'new' }
@@ -56,7 +56,7 @@ class ProyectoUsersController < ApplicationController
   def destroy
     @proyecto_user.destroy
     respond_to do |format|
-      format.html { redirect_to proyecto_users_url }
+      format.html { redirect_to Proyecto.find_by_id(@proyecto_user.proyecto_id) }
       format.json { head :no_content }
     end
   end

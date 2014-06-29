@@ -2,6 +2,7 @@ ra-*.html
 .rspec
 *.sqlite3
 *.secretkey
+/keys
 /log
 /tmp
 /db/*.sqlite3

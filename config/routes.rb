@@ -1,4 +1,6 @@
 Myapp::Application.routes.draw do
+  resources :votacions
+
   resources :inscripcion_eventos
 
   resources :proyecto_users

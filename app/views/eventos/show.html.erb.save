@@ -20,35 +20,16 @@
         <td><%= link_to proyecto.nombre, proyecto %></td>
         <td><%= proyecto.descripcion %></td>
         <td>
-          <% votacion_temp = Votacion.where(:user_id=>current_user.id, :proyecto_id=>proyecto.id)[0] %>
-          <% if votacion_temp == nil %>
-            <% @votacion = Votacion.new %>
-            <%= form_for @votacion do |f| %>
-              <%= hidden_field_tag "votacion[user_id]", current_user.id %>
-              <%= hidden_field_tag "votacion[proyecto_id]", proyecto.id %>
-              <%= f.text_field :valor %>
-              <%= f.submit "Votar"%>
-            <% end %>
-          <% else %>
-            <%= form_for votacion_temp do |f| %>
-              <%= hidden_field_tag "votacion[user_id]", current_user.id %>
-              <%= hidden_field_tag "votacion[proyecto_id]", proyecto.id %>
-              <%= f.text_field :valor, :value => votacion_temp.valor %>
-              <%= f.submit "Votar"%>
-            <% end %>
-
-          <% end %>
-        </td>
-        <td>
-          <% votacions_proyecto = Votacion.where(:proyecto_id=>proyecto.id) %>
-          <% if votacions_proyecto.size > 0 %>
-            <% suma=0 %>
-            <% votacions_proyecto.each do |vp|%>
-              <%suma+=vp.valor%>
-            <% end %>
-            <%= suma/votacions_proyecto.size %>
-          <% else %>
-            <%= 0 %>
+          <% @votacion = Votacion.new %>
+          <%= form_for(@votacion) do |f| %>
+            <div class="field">
+               f.hidden_field :user_id, :value => current_user.id %>
+              <%= f.hidden_field :proyecto_id, :value => proyecto.id %>
+              <%= f.number_field :valor, :value=>43 %>
+            </div>
+            <div class="actions">
+              <%= f.submit %>
+            </div>
           <% end %>
         </td>
       </tr>

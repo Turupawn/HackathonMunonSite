@@ -1,0 +1,31 @@
+<h1>Listing votacions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proyecto</th>
+      <th>User</th>
+      <th>Valor</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @votacions.each do |votacion| %>
+      <tr>
+        <td><%= votacion.proyecto_id %></td>
+        <td><%= votacion.user_id %></td>
+        <td><%= votacion.valor %></td>
+        <td><%= link_to 'Show', votacion %></td>
+        <td><%= link_to 'Edit', edit_votacion_path(votacion) %></td>
+        <td><%= link_to 'Destroy', votacion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Votacion', new_votacion_path %>

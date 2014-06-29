@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   has_many :proyectos
   has_many :proyecto_users
   has_many :votacions
+  has_many :inscripcion_eventos
 
 
   def self.from_omniauth(auth)

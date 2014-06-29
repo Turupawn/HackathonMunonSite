@@ -23,7 +23,26 @@
 </table>
 
 <h2>Acciones</h2>
+<% if !estoyInscrito @evento.id %>
+  <% @inscripcion_evento = InscripcionEvento.new %>
+  <%= form_for(@inscripcion_evento) do |f| %>
+    <% if @inscripcion_evento.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@inscripcion_evento.errors.count, "error") %> prohibited this inscripcion_evento from being saved:</h2>
+        <ul>
+          <% @inscripcion_evento.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
 
-<%= link_to 'Inscribirse TODO', "#" %> |
-<%= link_to 'Votar TODO', "#" %> |
-<%= link_to 'Nuevo proyecto', {:controller => "proyectos", :action => "new", :evento_id => @evento.id }%>
+    <%= hidden_field_tag "inscripcion_evento[evento_id]", @evento.id %>
+    <%= hidden_field_tag "inscripcion_evento[user_id]", current_user.id %>
+    <div class="actions">
+      <%= f.submit "Inscribirse"%>
+    </div>
+  <% end %>
+<% else %>
+  <%= link_to 'Nuevo proyecto', {:controller => "proyectos", :action => "new", :evento_id => @evento.id }%>
+<% end %>

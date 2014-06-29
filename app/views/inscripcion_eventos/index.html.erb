@@ -1,0 +1,29 @@
+<h1>Listing inscripcion_eventos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Evento</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @inscripcion_eventos.each do |inscripcion_evento| %>
+      <tr>
+        <td><%= inscripcion_evento.user_id %></td>
+        <td><%= inscripcion_evento.evento_id %></td>
+        <td><%= link_to 'Show', inscripcion_evento %></td>
+        <td><%= link_to 'Edit', edit_inscripcion_evento_path(inscripcion_evento) %></td>
+        <td><%= link_to 'Destroy', inscripcion_evento, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Inscripcion evento', new_inscripcion_evento_path %>

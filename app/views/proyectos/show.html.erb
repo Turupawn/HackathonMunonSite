@@ -30,6 +30,9 @@
         <% if current_user.id == @proyecto.user_id %>
           <td><%= link_to 'Expulsar', proyecto_user, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
         <% end %>
+        <% if current_user.id == proyecto_user.user_id %>
+          <td><%= link_to 'Abandonar', proyecto_user, method: :delete, data: { confirm: '¿Estás seguro?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
@@ -54,7 +57,13 @@
     <% end %>
     <%= hidden_field_tag "proyecto_user[proyecto_id]", @proyecto.id.to_s %>
     <div class="field">
-      <%= f.collection_select :user_id, User.all, :id, :name %>
+      <select name="proyecto_user[user_id]" id="proyecto_user[user_id]">
+        <% InscripcionEvento.where(:evento_id=>@proyecto.evento_id).each do |ie| %>
+          <% if ie.user_id != @proyecto.user_id %>
+            <option value="<%= ie.user_id %>"><%= ie.user.name %></option>
+          <% end %>
+        <% end %>
+      </select>
     </div>
     <div class="actions">
       <%= f.submit "Agregar"%>
